@@ -1,0 +1,211 @@
+
+
+body {
+background-color: #efefef;
+margin: 0;
+}
+
+header {
+    background-color: white;
+  padding: 2rem 3rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+  text-align: center;     /* Centra el texto */
+  max-width: 400px;       /* Máximo ancho del párrafo */
+  margin: 0 auto;         /* Centrado horizontalmente */
+  line-height: 1.5;       /* Mejora la legibilidad */
+  padding: 0 10px;        /* Un poco de espacio lateral en móvil */
+}
+
+div {
+    width: 350px;
+    margin:  0 auto;
+}
+
+div section {
+    background-color: white;
+    border-radius: 30px;
+    margin: 1rem 0;
+    padding: 0.25rem 0rem;
+}
+
+div section img {
+  display: block;
+  margin: 0 auto; 
+  cursor: pointer;
+  transition: box-shadow 0.3s ease ;
+  /*margin-left: 50px;    /* la empuja un poco a la derecha */
+  /*transform: translateX(0px); /* mueve 30px a la derecha */
+}
+
+div section img:hover {
+ box-shadow: 0rem 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+div section h2, div section p, div section form, div section ul {
+  margin: 1rem  ;
+}
+
+
+footer {
+    background-color: #fff;
+    padding: 3rem;
+    margin: 0;
+    color: black;
+}
+
+footer a {
+float: right;
+cursor: pointer;
+transition: color 0.3s;
+text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+   background-color: #efefef;
+   margin: 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+header p {
+    margin: 1rem;
+}
+
+header div {
+margin: 0 auto;
+ width: 450px;
+ width: 100%;
+}
+
+
+header {
+    background-color: #fff;
+    color: black;
+    padding: 3rem 2rem;
+   width: 100%;
+}
+
+
+div {
+    margin: 0 auto;
+    width: 350px;
+    width: 90%
+}
+
+div section {
+    background-color: #fff;
+    margin: 01rem 01rem;
+    border-radius: 1rem;
+    padding: 0.1rem 0rem;
+    width: 90%
+}
+
+
+div section h2, div section p, div section ul, div section form {
+ margin: 1rem;
+}
+
+
+div section img {
+ max-width: 100%;
+ height: auto;
+cursor: pointer;
+transition: box-shadow 0.3s ease ;
+width: 90%
+}
+
+div section img:hover {
+    box-shadow: 0rem 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+footer {
+    background-color: #fff;
+    padding: 3rem;
+    color: black;
+    width: 90%;
+}
+
+footer section {
+float: right;
+}
+
+footer p {
+   margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease; 
+    color: black;
+    text-decoration: none; 
+  }
+
+footer a:hover {
+    color: cornflowerblue
+}
